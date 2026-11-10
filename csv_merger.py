@@ -17,17 +17,4 @@ for i in csv_name_set:
                                ))
 df_merged = pd.concat(df_list, axis=0).set_index(["Name", "Date"])
 
-print (df_merged)
- 
-#df_merged.to_csv("merged.csv")
-
-
-
-
-
-
-
-
-
-
-
+df_merged.to_csv("merged.csv")
